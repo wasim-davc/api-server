@@ -11,7 +11,7 @@ const app = express();
 
 const sites_domain = [
   "https://moviesmod.com",
-  "https://plexmovies.xyz"
+  "https://nexmovies.xyz"
 ];
 
 
@@ -61,7 +61,7 @@ app.get("/generate-sitemap", async (req, res) => {
     sites_domain[0] + "/wp-json/wp/v2/posts?order_by=id&order=desc&per_page=50",
     sites_domain[1] + "/wp-json/wp/v2/posts?order_by=id&order=desc&per_page=50"
   ];
-  const sitemap_url = "https://movies-king.herokuapp.com/download/";
+  const sitemap_url = "https://movieskingpro.onrender.com/download/";
 
   var result = `
     <?xml version="1.0" encoding="UTF-8" ?>
