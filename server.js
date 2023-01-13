@@ -19,7 +19,9 @@ const sites_domain = [
 
   "https://moviesmod.in",
 
-  "https://topgmovies.xyz"
+  "https://topgmovies.xyz",
+
+  "https://animeflix.org.in"
 
 ];
 
@@ -54,9 +56,15 @@ app.get(["/posts", "/categories", "/media"], (req, res) => {
 
   }
 
-  else{
+  else if(parseInt(req.query.site) == 2){
 
     var url = sites_domain[1] + '/wp-json/wp/v2' + req.url + cache_flush_param;
+
+  }
+
+  else{
+
+    var url = sites_domain[2] + '/wp-json/wp/v2' + req.url + cache_flush_param;
 
   }
 
