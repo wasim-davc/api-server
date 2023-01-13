@@ -19,7 +19,7 @@ const sites_domain = [
 
   "https://moviesmod.in",
 
-  "https://nexmovies.xyz"
+  "https://topgmovies.xyz"
 
 ];
 
