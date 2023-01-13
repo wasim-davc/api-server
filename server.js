@@ -41,7 +41,7 @@ app.get("/", (req, res) =>{
 });
 
 
-app.get(["/posts", "/categories"], (req, res) => {  
+app.get(["/posts", "/categories", "/media"], (req, res) => {  
 
   var timestamp = new Date().getTime().toString();
 
