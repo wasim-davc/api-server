@@ -21,7 +21,7 @@ const sites_domain = [
 
   "https://topgmovies.xyz",
 
-  "https://animeflix.org.in"
+  "https://animeflix.net.in"
 
 ];
 
