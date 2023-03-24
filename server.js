@@ -19,7 +19,7 @@ const sites_domain = [
 
   "https://moviesmod.org.in",
 
-  "https://topgmovies.xyz",
+  "https://topmovies.live",
 
   "https://animeflix.net.in"
 
