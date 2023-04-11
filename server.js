@@ -17,7 +17,7 @@ const app = express();
 
 const sites_domain = [
 
-  "https://moviesmod.org.in",
+  "https://moviesmod.net.in",
 
   "https://topmovies.live",
 
