@@ -17,9 +17,9 @@ const app = express();
 
 const sites_domain = [
 
-  "https://moviesmod.one",
+  "https://themoviesflix.com.de",
 
-  "https://topmovies.life",
+  "https://hdmoviezflix.pro",
 
   "https://animeflix.net.in"
 
