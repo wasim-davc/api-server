@@ -17,7 +17,7 @@ const app = express();
 
 const sites_domain = [
 
-  "https://themoviesflix.com.de",
+  "https://themoviesflix.de.com",
 
   "https://hdmoviezflix.pro",
 
