@@ -17,11 +17,11 @@ const app = express();
 
 const sites_domain = [
 
-  "https://themoviesflix.de.com",
+  "https://moviesmod.life",
 
-  "https://hdmoviezflix.pro",
+  "https://topmovies.foo",
 
-  "https://animeflix.net.in"
+  "https://animeflix.pm"
 
 ];
 
